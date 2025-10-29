@@ -90,6 +90,8 @@ poetry install --extras cuda
 poetry run whisper-asr-webservice --host 0.0.0.0 --port 9000
 ```
 
+
+
 After starting the service, visit `http://localhost:9000` or `http://0.0.0.0:9000` in your browser to access the Swagger UI documentation and try out the API endpoints.
 
 ## Credits
